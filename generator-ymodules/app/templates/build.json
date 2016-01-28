@@ -1,0 +1,6 @@
+{
+    "concatTo": "module.min.js",
+    "minify": true,
+    "namespace": "ym",
+    "babel": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "generator-ymodules",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Yeoman generator for YModules",
+  "main": "./app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yandex",
+    "ymodule",
+    "mapsapi",
+    "ymap",
+    "yeoman-generator"
+  ],
+  "author": "Alexey Sazonov",
+  "license": "MIT",
+  "devDependencies": {
+    "yeoman-generator": "^0.22.5"
+  }
+}
