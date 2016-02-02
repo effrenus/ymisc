@@ -38,14 +38,13 @@ module.exports = generators.Base.extend({
           {appname: this.userData.appname, username: this.userData.username}
         );
       },
-      editorconfig: function () {
-        this.fs.copy(this.templatePath('editorconfig'), this.destinationPath('.editorconfig'));
-      },
       copy: function () {
+        this.fs.copy(this.templatePath('editorconfig'), this.destinationPath('.editorconfig'));
         this.fs.copy(this.templatePath('eslintrc'), this.destinationPath('.eslintrc'));
         this.fs.copy(this.templatePath('babelrc'), this.destinationPath('.babelrc'));
         this.fs.copy(this.templatePath('gitignore'), this.destinationPath('.gitignore'));
         this.fs.copy(this.templatePath('build.json'), this.destinationPath('build.json'));
+        this.fs.copy(this.templatePath('gulpfile.js'), this.destinationPath('gulpfile.json'));
       }
     },
 

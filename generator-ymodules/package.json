@@ -1,7 +1,7 @@
 {
   "name": "generator-ymodules",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator for YModules",
   "main": "./app/index.js",
   "scripts": {

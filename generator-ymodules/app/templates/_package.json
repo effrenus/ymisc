@@ -19,7 +19,6 @@
     "eslint": "^1.10.3",
     "eslint-config-yandex": "^1.0.5",
     "eslint-plugin-flowtype": "^1.0.0",
-    "flow-bin": "^0.20.1",
     "gulp-babel": "^6.1.1",
     "ymb": "^0.3.45"
   }
