@@ -1,3 +1,6 @@
 {
-    "plugins": ["transform-flow-strip-types"]
+    "plugins": [
+      <% if (flow) { %>"transform-flow-strip-types"<% } %>
+    ],<% if (es6) { %>
+    "presets": ["es2015"]<% } %>
 }

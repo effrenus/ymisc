@@ -2,5 +2,5 @@
     "concatTo": "module.min.js",
     "minify": true,
     "namespace": "ym",
-    "babel": true
+    "babel": <% if (es6 || flow) { %>true<% } esle { %>false<% } %>
 }
