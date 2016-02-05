@@ -1,6 +1,7 @@
 {
     "plugins": [
-      <% if (flow) { %>"transform-flow-strip-types"<% } %>
+      <% if (flow) { %>"transform-flow-strip-types",<% } %>
+      <% if (es6) { %>"es6-ymodule",<% } %>
     ],<% if (es6) { %>
     "presets": ["es2015"]<% } %>
 }

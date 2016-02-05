@@ -56,7 +56,7 @@ module.exports = generators.Base.extend({
         );
       },
       babel: function () {
-        if (!this.options['flow'] && !this.option['es6']) {
+        if (!this.options['flow'] && !this.options['es6']) {
           return;
         }
         this.fs.copyTpl(
@@ -93,7 +93,7 @@ module.exports = generators.Base.extend({
     },
 
     install: function () {
-      // this.installDependencies();
+      this.installDependencies();
     },
 
     end: function () {
